@@ -31,5 +31,6 @@
   },
   "bin": {
     "textqr": "dist-cli/textqr.js"
-  }
+  },
+  "license": "MIT"
 }

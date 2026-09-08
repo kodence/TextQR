@@ -99,3 +99,7 @@ The build in `dist/` is static. Serve it from any static host over https. The se
 - [qrcode](https://github.com/soldair/node-qrcode) for encoding (MIT)
 - [zxing-wasm](https://github.com/Sec-ant/zxing-wasm) for decoding (MIT, wraps ZXing-C++)
 - Vite, React, TypeScript, vite-plugin-pwa, Vitest
+
+## License
+
+MIT. See [LICENSE](LICENSE).
