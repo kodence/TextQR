@@ -92,7 +92,9 @@ Key points:
 
 ## Deploying
 
-The build in `dist/` is static. Serve it from any static host over https. The service worker precaches everything, including the 1 MB decoder, so first load is heavier and every later load is instant and offline-capable.
+The live app is at **https://kodence.github.io/TextQR/**, published by the GitHub Actions workflow in `.github/workflows/deploy.yml` on every push to `main`. The workflow runs the tests, builds with `BASE_PATH=/TextQR/`, and uploads `dist/` to GitHub Pages.
+
+To host elsewhere, run `npm run build` (set `BASE_PATH` if the site is not at the domain root) and serve `dist/` from any static host over https. The service worker precaches everything, including the 1 MB decoder, so first load is heavier and every later load is instant and offline-capable.
 
 ## Libraries
 
